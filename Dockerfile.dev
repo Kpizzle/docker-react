@@ -1,0 +1,18 @@
+# Get base image :alpine is slim
+FROM node:alpine
+
+# Creates root dir in image to work from
+# All cmds are run from here
+WORKDIR '/app'
+
+#Copy over json file to workdir
+COPY package.json .
+
+#Install dep
+RUN npm install
+
+#Copy over all application files
+COPY . . 
+
+#cmd run to start process in docker
+CMD ["npm", "run", "start"]
