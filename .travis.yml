@@ -15,6 +15,6 @@ deploy:
   secret_access_key:
     secure: 'Encypted <secret-access-key>='
   region: 'us-east-2'
-  app: 'docker-react'
-  env: 'DockerReact-env'
+  app: 'docker-app'
+  env: 'DockerApp-env'
   bucket_name: elasticbeanstalk-us-east-2-380402590287
