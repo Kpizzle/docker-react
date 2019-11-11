@@ -20,6 +20,12 @@ function App() {
         <a className='App-link' href='https://kylepotter.co.uk'>
           My Blog
         </a>
+        <a
+          className='App-link'
+          href='https://www.linkedin.com/in/kyle-potter87/'
+        >
+          Linkind
+        </a>
       </header>
     </div>
   );
