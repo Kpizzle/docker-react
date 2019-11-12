@@ -7,25 +7,13 @@ function App() {
     <div className='App'>
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
-        <p>Test Automation CI/CD Project</p>
+        <p>Welcome To RemindR</p>
         <hr></hr>
         <p>
           <div className='intro'>
-            Welcome to my CI/CD project!
-            <br />
-            Here is a sample application that I will be using to learn CI/CD
-            with a host with a cool hip tech stack!
+          RemindR is your one stop shop to make sure everyone gets to your event on time and at the right place. 
           </div>
         </p>
-        <a className='App-link' href='https://kylepotter.co.uk'>
-          My Blog
-        </a>
-        <a
-          className='App-link'
-          href='https://www.linkedin.com/in/kyle-potter87/'
-        >
-          Linkind
-        </a>
       </header>
     </div>
   );
